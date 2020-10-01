@@ -8,17 +8,51 @@ background-color: #eeeeee;
 body{
 	background-color: #eeeeee;
 	font-family: 'montserrat', sans-serif;
-	margin: 0;
-	position: relative;
+}
+#sobre-mi i{
+	color: white;
+	background-color: black;
+	padding: 30px;
+	margin: 15px;
+	font-size: 40px;
+}
+#sobre-mi p{
+	margin: 15px;
+	padding-bottom: 20px ;
 }
 h1{
 	font-weight: 700;
-	font-size: 60px;
+	font-size: 55px;
 	margin-top: 3rem;
 }
 h2{
 	font-weight: 500;
+	font-size: 25px;
+	padding-bottom: 2rem;
+	line-height: 2rem;
+}
+#experiencia h2{
+	color:white;
 	font-size: 30px;
+	padding-top: 2rem;
+	padding-bottom:3rem;
+}
+h3{
+	color:white;
+	font-family: 'roboto';
+	font-weight:400;
+	font-size: 25px;
+}
+h4{
+	color:white;
+	font-size: 18px;
+	font-weight: 300;
+}
+.pb-5, .boton {
+	padding-bottom: 22.5rem!important;
+}
+#experiencia{
+	background-color:#2D2D2D;
 }
 nav{
 	width: max-content;
@@ -30,7 +64,9 @@ nav .nav-item{
 nav .nav-link{
 	color: #4B4B4B !important;
 	text-transform: uppercase;
-	font-size: 17px;
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
 }
 .form-control {
 	background-color: #eeeeee;
@@ -55,11 +91,12 @@ border:1px solid black;
 }
 footer{
 	background-color: white;
-	margin-bottom: 0;
+	width: 100%;
 }
 footer a{
 	color: black;
 	text-decoration: underline;
+	margin-top: 200px;
 }
 footer i{
 	font-size: 35px;
@@ -70,14 +107,4 @@ footer i{
     padding: 8px;
     border-radius: 80px;
     margin: 22px;
-}
-.containerb{
-	
-}
-@media (max-width:500px){
-	h1{
-		font-weight: 700;
-		font-size: 44px;
-		margin-top: 3rem;
-	}
 }
